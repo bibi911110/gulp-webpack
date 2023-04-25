@@ -1,0 +1,25 @@
+@import '_vendors/font-awesome/fontawesome';
+@import '_vendors/font-awesome/solid';
+@import '_vendors/font-awesome/brands';
+
+@import './base/minireset';
+
+$primary-background-color: #D1E5E1;
+
+body {
+  background-color: $primary-background-color;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vH;
+}
+
+img {
+  margin-bottom: 3rem;
+}
+
+p{
+  color: #222;
+  font-size: 100px;
+}
